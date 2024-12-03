@@ -5,7 +5,7 @@ This is a .NET WEB API for managing a book store. It provides functionality for 
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
-2. [Setting Up the Project](#setting-up-the-project)
+2. [Clone the Repository](#Clone the Repository)
 3. [Running the Application](#running-the-application)
 4. [Executing Unit Tests](#executing-unit-tests)
 5. [Configuration & Secrets](#configuration--secrets)
@@ -13,7 +13,7 @@ This is a .NET WEB API for managing a book store. It provides functionality for 
 7. [Contributing](#contributing)
 8. [License](#license)
 
-## Prerequisites
+### 1.Prerequisites
 
 Before setting up and running the application, ensure you have the following installed:
 
@@ -24,7 +24,7 @@ Before setting up and running the application, ensure you have the following ins
 
 ## Setting Up the Project
 
-### 1. Clone the Repository
+### 2. Clone the Repository
 
 To get started, clone the repository using the following command:
 
@@ -46,9 +46,9 @@ This will download all the dependencies defined in the .csproj file.
 ### 4. Set Up Database
 The project uses Entity Framework Core for data storage. 
 Make sure to configure your database connection string in appsettings.json or use environment variables for production secrets. 
-The default setup assumes SQL Server. You may need to create or configure a local database.
+The default setup assumes SQL Server. You may need to create or configure a local database - appsettings.json.
 
-Example connection string (update for your environment):
+Example connection string in appsettings.json (update for your environment):
 ```bash
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=BookstoreDB;Trusted_Connection=True;TrustServerCertificate=True;"
