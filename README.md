@@ -58,6 +58,7 @@ Example connection string (update for your environment):
 If you're using Entity Framework Core for database operations, create the database using migrations:
 
 ```bash
+dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
 Running the Application
