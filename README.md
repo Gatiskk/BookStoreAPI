@@ -67,5 +67,13 @@ And run
 dotnet test
 ```
 To run tests
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Used Tech:
+Visual Studio 2022
+Entity Framework
+Microsoft SQL Server
+Microsoft SQL Server Management Studio
+Microsoft Identity
+xUNIT
+Moq
+Serilog
+Swagger
