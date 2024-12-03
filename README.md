@@ -29,7 +29,7 @@ Before setting up and running the application, ensure you have the following ins
 To get started, clone the repository using the following command:
 
 ```bash
-git clone https://github.com/yourusername/BookStoreAPI.git
+git clone https://github.com/Gatiskk/BookStoreAPI.git
 ```
 ### 2. Navigate to the Project Folder
 After cloning, go to the project directory:
