@@ -2,17 +2,6 @@
 
 This is a .NET WEB API for managing a book store. It provides functionality for CRUD operations on books, including features such as sorting, pagination, and filtering by genre. The API is built using .NET 8 and utilizes **Entity Framework Core** with **Serilog** for logging.
 
-## Table of Contents
-
-1. [Prerequisites](#prerequisites)
-2. [Clone the Repository](#Clone-the-Repository)
-3. [Running the Application](#running-the-application)
-4. [Executing Unit Tests](#executing-unit-tests)
-5. [Configuration & Secrets](#configuration--secrets)
-6. [Troubleshooting](#troubleshooting)
-7. [Contributing](#contributing)
-8. [License](#license)
-
 ### 1.Prerequisites
 
 Before setting up and running the application, ensure you have the following installed:
