@@ -6,7 +6,7 @@ This is a .NET WEB API for managing a book store. It provides functionality for 
 
 Before setting up and running the application, ensure you have the following installed:
 
-- **.NET 8 SDK** or later: [Download .NET SDK](https://dotnet.microsoft.com/download)
+- **.NET 8 SDK** or later.
 - **Visual Studio 2022** or later (if you're using Visual Studio), or any code editor (like Visual Studio Code).
 - **SQL Server** (based on your project configuration).
 - **Git**: To clone the repository.
@@ -62,12 +62,12 @@ After cloning, go to the project directory:
 ```bash
 cd bookstoreapitests
 ```
-And run
+To run tests
 ```bash
 dotnet test
 ```
-To run tests
 ### Used Tech:
+```
 Visual Studio 2022
 Entity Framework
 Microsoft SQL Server
@@ -76,4 +76,5 @@ Microsoft Identity
 xUNIT
 Moq
 Serilog
+```
 Swagger
