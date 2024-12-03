@@ -5,7 +5,7 @@ This is a .NET WEB API for managing a book store. It provides functionality for 
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
-2. [Clone the Repository](#Clone the Repository)
+2. [Clone the Repository](#Clone-the-Repository)
 3. [Running the Application](#running-the-application)
 4. [Executing Unit Tests](#executing-unit-tests)
 5. [Configuration & Secrets](#configuration--secrets)
