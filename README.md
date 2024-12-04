@@ -68,16 +68,20 @@ dotnet test
 ```
 ### 7. Authentication
 When project is running use api/auth/login to retrieve token and login.
+```
 {
   "username": "admin",
   "password": "admin123",
   "role": "Admin"
 }
+```
+```
 {
   "username": "User",
   "password": "user123",
   "role": "User"
 }
+```
 Choose which role you want and retrieve token.
 After that go to Authorize and in "Value" field type: Bearer yourtoken and press authorize
 
