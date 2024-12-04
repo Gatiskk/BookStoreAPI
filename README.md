@@ -66,6 +66,10 @@ To run tests
 ```bash
 dotnet test
 ```
+### 7. Authentication
+When project is running use api/auth/login to retrieve token and login.
+
+
 ### Used Tech:
 ```
 Visual Studio 2022
